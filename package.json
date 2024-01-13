@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev:drawio": "cd src/main/webapp && serve"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
