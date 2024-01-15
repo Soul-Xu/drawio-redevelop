@@ -5174,7 +5174,7 @@ EditorUi.prototype.createUi = function()
 	
 	if (this.format != null)
 	{
-		this.container.appendChild(this.formatContainer);
+		// this.container.appendChild(this.formatContainer);
 	}
 	
 	// Creates the footer

@@ -1,8 +1,14 @@
 {
   "scripts": {
-    "dev:drawio": "cd src/main/webapp && serve"
+    "dev:drawio": "cd src/main/webapp && serve --listen 3002",
+    "start": "node server.js"
   },
   "devDependencies": {
     "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
   }
 }
